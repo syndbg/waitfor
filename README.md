@@ -11,6 +11,7 @@ Checks are performed every second.
 
 ```shell
 > waitfor <filepath> <retry_limit> && <on_found_command>
+> waitfor <filepath> <retry_limit> || <on_retry_limit_exhausted_command>
 ```
 
 Concrete example
